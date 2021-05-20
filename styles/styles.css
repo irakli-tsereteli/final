@@ -861,3 +861,161 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.social-icons li {
+  display: inline;
+  background-color:#eee;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  font-size: 18px;
+  text-align: center;
+  transition: all .3s;
+}
+
+  .social-icons li:hover {
+  background-color: #f33f3f;
+  color: #fff;
+  }
+
+.social-icons a {
+  color: #121212;
+  width: 50px;
+  height: 50px;
+  transition: all .3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.heading1 {
+     /* display: flex; */
+    /* background-color: aqua; */
+    /* justify-content: space-between; */
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    
+    border-bottom: 1px solid #eee;
+}
+
+
+.teammembers {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.team1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  position: relative;
+  max-width: 380px;
+  width:100%;
+}
+
+.image {
+  
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f33e3e;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.social-icons1 li {
+  display: inline;
+  background-color:#eee;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  font-size: 18px;
+  text-align: center;
+  transition: all .3s;
+}
+
+  
+
+.social-icons1 a {
+  color: #121212;
+  width: 50px;
+  height: 50px;
+  transition: all .3s;
+}
+
+.social-icons1 a:hover {
+  color: #f33e3e;
+}
+
+.information {
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #1a6692;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    margin-top:8px;
+}
+
+.position {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #f33f3f;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.anotation {
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #4a4a4a;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+}
