@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    
+    <title>Sixteen Clothing</title>
+    
+</head>
+<body>
+    <!-- header start -->
+    <header class="navigation">
+        <div class="header-container">
+            <div class="logo">
+                <h2 class="header-logo"> <a href="index.html" class="logo-a">Sixteen <span class="span-logo">Clothing</span></a></h2>
+            </div>
+            <div class="nav">
+                <ul class="nav-ul">
+                    <li class="nav-li active">
+                        <a href="index.html" class="nav-a">home</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="our-products.html" class="nav-a">our products</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="about-us.html" class="nav-a">about us</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="#" class="nav-a">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main-image -->
+
+    <div class="mainimage-container">
+        <div class="main-image1"></div>
+        <div class="numbertext">
+            <h4>About us</h4>
+            <h2>our company</h2>
+        </div>
+    </div>
+    <!-- section start -->
+
+    <section>
+        <div class="heading">
+            <h3 class="heading-header">Our Background</h3>
+        </div>
+        <div class="middlemiddlecontainer">
+        <div class="leftleftblock"></div>
+        <div class="rightrightblock">
+          <h4 class="rightrightheading">who we are & what we do?</h4>
+          <p class="middlep1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p class="middlep2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis.</p>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+          <div class="copyright">COPYRIGHT © 2020 SIXTEEN CLOTHING CO., LTD. - DESIGN: <a href="#" class="copyright-a">TEMPLATEMO</a></div>
+    </footer>
+
+
+        <script>
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" activee", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " activee";
+        }
+        </script>
+        
+
+      <!-- slider -->
+        
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("nav");
+        var btns = header.getElementsByClassName("nav-li");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        }
+        </script>
+</body>
+</html>

@@ -621,5 +621,243 @@
   }
 
   .copyright {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
     margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #4a4a4a;
+    line-height: 24px;
+    text-align: center;
   }
+
+  .copyright-a {
+    color: #f33f3f;
+  }
+
+/* our-product page */
+/* banner */
+
+
+/* section */
+
+.ourproducts-heading {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.main-image {
+  width: 100%;
+  height: 350px;
+  background-image: url("../images/products-heading.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.ourproducts-ul {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  
+}
+
+.ourproducts-li {
+  display: inline;
+  
+}
+
+.ourproducts-a {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #121212;
+    margin: 0px 10px;
+    transition: all .3s;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+ .ourproducts-a:hover{
+  color: #f33f3f;
+}
+
+.ourproducts-a1 { 
+  text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #f33f3f;
+    margin: 0px 10px;
+    transition: all .3s;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.pages {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.pages-ul {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  
+}
+
+.pages-li {
+  display: inline;
+  
+}
+
+.numbers {
+  padding: 10px;
+  margin-left: 10px;
+  line-height: 42px;
+  font-size:14px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #eee;
+}
+
+.numbers:hover {
+  background-color: #f33f3f;
+  color: #eee;
+}
+
+.mainimage-container {
+	text-align: center;
+	width: 100%;
+  font-family: 'Poppins', sans-serif;
+	position: relative;
+}
+
+.main-image1 {
+  width: 100%;
+  height: 350px;
+  background-image: url("../images/about-heading.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+/*  */
+
+.middlemiddlecontainer {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  /* background-color: aqua; */
+  justify-content: space-between;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #eee;
+  /* align-items: center; */
+}
+
+.leftleftblock {
+  display: flex;
+  width: 490px;
+  background-image: url("../images/feature-image.jpg");
+  /* object-fit: cover; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rightrightblock {
+  display: flex;
+  flex-direction: column;
+  width: 490px;
+  /* background-color: brown; */
+}
+
+.rightrightheading {
+  /* display: flex; */
+  width: 490px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: #1a6692;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+}
+
+.middlep1 {
+  width: 490px;
+  margin-bottom: 25px;
+  color: #4a4a4a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  
+}
+
+.middlep2 {
+  width: 490px;
+  margin-bottom: 25px;
+  color: #4a4a4a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.leftblock-a1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.leftblock-a2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.leftblock-ul {
+  list-style-type: square;
+  margin-left: 18px;
+  color:#1a6692;
+}
+
+.left1block-li {
+  margin-bottom: 10px;
+}
+
+.left1block-a3 {
+  color:#1a6692;
+}
+
+.left1block-a3:hover {
+  color: #f33f3f;
+}
+
+.leftleftblock {
+  display: flex;
+  width: 490px;
+  background-image: url("../images/feature-image.jpg");
+  /* object-fit: cover; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
