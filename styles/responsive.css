@@ -71,6 +71,14 @@
     }
 }
 
+/* 925px; */
+
+@media (max-width:925px) {
+    .section-container {
+        justify-content: center;
+    }
+}
+
 /* 600 */
 
 @media (max-width:600px) {
@@ -86,7 +94,15 @@
     }
 }
 
-/* 505 */
+/* 525px */
+
+@media (max-width:525px){
+    .heading, .middle-container {
+        flex-wrap: wrap;
+    }
+}
+
+/* 505px */
 
 @media (max-width:505) {
     .heading {
@@ -131,7 +147,7 @@
     }
 }
 
-/* 440 */
+/* 440px */
 
 @media (max-width:440px) {
     .numbertext h2 {
@@ -139,7 +155,17 @@
     }
 }
 
-/* 391 */
+/* 437px */
+
+@media (max-width:437px){
+    .ourproducts-a, .ourproducts-a1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* 391px */
 
 @media (max-width:391px) {
     .numbertext {
@@ -164,13 +190,77 @@
 @media (max-width:361px) {
     .section-container {
         width: 95%;
+        justify-content: center;
     }
 }
 
 /* 343 */
 
-@media (max-width:3343px) {
+@media (max-width:343px) {
     .section-container {
         width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:343px) {
+    .last-container {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (max-width:343px) {
+    .lastcontainer-button {
+        display: flex;
+        margin-left: 30px;
+    }
+}
+
+/* 349px */
+
+@media (max-width:349px) {
+    .last-container {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (max-width:349px) {
+    .lastcontainer-button {
+        display: flex;
+        margin-left: 30px;
+    }
+}
+
+/* 336px */
+
+@media (max-width:336px) {
+    .block1, .block2, .block3, .block4, .block5, .block6, .block1-image, .block2-image, .block3-image, .block4-image, .block5-image, .block6-image{
+        width: 280px;
+        
+    }
+}
+
+@media (max-width:336px){
+    .sec-cont-price{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:336px) {
+    .last-container {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+@media (max-width:336px) {
+    .lastcontainer-button {
+        display: flex;
+        margin-left: 30px;
     }
 }
