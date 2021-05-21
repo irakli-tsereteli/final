@@ -1,0 +1,148 @@
+/* 1025px */
+
+@media (max-width:1025px){
+    .nav {
+        display: none;
+    }
+}
+
+@media (max-width:1025px){
+    .burgermenu {
+        display: block;
+        margin-right:30px;
+    }
+}
+
+@media (max-width:1025px){
+    .section-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+}
+
+@media (max-width:1025px){
+    .heading {
+        width: 70%;
+    }
+}
+
+@media (max-width:1025px){
+    .heading2 {
+        width: 70%;
+    }
+}
+
+@media (max-width:1025px){
+    .middle-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        justify-content: center;
+
+    }
+}
+
+@media (max-width:1025px){
+.right-block {
+    width:490px;
+    height: 490px;
+    margin-top:50px;
+    }
+}
+
+@media (max-width:1025px){
+    .last-container {
+        width: 70%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:1025px){
+    .lastcontainer-button {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:1025px){
+    .footer {
+        width: 70%;
+    }
+}
+
+/* 600 */
+
+@media (max-width:600px) {
+    .slideshow-container {
+        justify-content: center;
+    }
+}
+
+@media (max-width:600px) {
+    .numbertext {
+        width: 80%;
+        margin-left:50px;
+    }
+}
+
+/* 505 */
+
+@media (max-width:505) {
+    .heading {
+        width: 50%;
+    }
+}
+
+@media (max-width:505px){
+    .headingp {
+        width: 300px;
+        
+    }
+}
+
+@media (max-width:505px){
+    .leftcontainer {
+        width: 50%;
+    }
+}
+
+@media (max-width:505px){
+    .left-block {
+        width: 70%;
+    }
+}
+
+@media (max-width:505px){
+    .left-block {
+        width: 70%;
+    }
+}
+
+@media (max-width:505px){
+    .leftblock-heading {
+        width: 70%;
+    }
+}
+
+@media (max-width:505px){
+    .leftblock-p {
+        width: 100%;
+    }
+}
+
+/* 440 */
+
+@media (max-width:600px) {
+    .numbertext h2 {
+        font-size:18px;
+    }
+}
+
+/* 391 */
+
+@media (max-width:600px) {
+    .numbertext {
+        top: 30%;
+    }
+}
