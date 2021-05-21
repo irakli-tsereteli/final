@@ -133,7 +133,7 @@
 
 /* 440 */
 
-@media (max-width:600px) {
+@media (max-width:440px) {
     .numbertext h2 {
         font-size:18px;
     }
@@ -141,8 +141,36 @@
 
 /* 391 */
 
-@media (max-width:600px) {
+@media (max-width:391px) {
     .numbertext {
         top: 30%;
+    }
+}
+
+@media (max-width:391px) {
+    .heading {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:391px) {
+    .section-container {
+        width: 85%;
+    }
+}
+
+/* 361 */
+
+@media (max-width:361px) {
+    .section-container {
+        width: 95%;
+    }
+}
+
+/* 343 */
+
+@media (max-width:3343px) {
+    .section-container {
+        width: 100%;
     }
 }
