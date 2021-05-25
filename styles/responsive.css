@@ -1,10 +1,6 @@
 /* 1025px */
 
-@media (max-width:1025px){
-    .burgermenu  {
-        display: block;
-    }
-}
+
 @media (max-width:1025px){
     .burgermenu a {
         color: white;
@@ -29,11 +25,7 @@
       
       }
 }
-
-  
  
-  
-  
 
 @media (max-width:1025px){
     .nav {
@@ -106,6 +98,33 @@
     }
 }
 
+@media (max-width:1025px) {
+    .middlemiddlemiddlecontainer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+}
+
+@media (max-width:1025px) {
+    .leftleftleftblock iframe {
+        width: 700px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:1025px){
+    .rightrightrightblock {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:1025px){
+    .heading1 {
+        width: 70%;
+    }
+}
+
 /* 1016px */
 
 @media (max-width:1016px) {
@@ -124,7 +143,6 @@
 
 @media (max-width:1016px) {
     .teammembers {
-        
         width:80%;
     }
 }
@@ -132,7 +150,6 @@
 @media (max-width:1016px) {
     .team, .team1 {
         flex-wrap: wrap;
-        
     }
 }
 
@@ -173,6 +190,22 @@
 @media (max-width:925px) {
     .section-container {
         justify-content: center;
+    }
+}
+
+/* 850px */
+
+@media (max-width:851px) {
+    .leftleftleftblock iframe {
+        width: 650px;
+    }
+}
+
+/* 792px */
+
+@media (max-width:792px) {
+    .leftleftleftblock iframe {
+        width: 600px;
     }
 }
 
@@ -276,6 +309,30 @@
     }
 }
 
+/* 734px */
+
+@media (max-width:734px) {
+    .leftleftleftblock iframe {
+        width: 550px;
+    }
+}
+
+/* 676px */
+
+@media (max-width:676px) {
+    .leftleftleftblock iframe {
+        width: 500px;
+    }
+}
+
+/* 617px */
+
+@media (max-width:617px) {
+    .leftleftleftblock iframe {
+        width: 450px;
+    }
+}
+
 /* 600 */
 
 @media (max-width:600px) {
@@ -288,6 +345,35 @@
     .numbertext {
         width: 80%;
         margin-left:50px;
+    }
+}
+
+/* 592px */
+
+@media (max-width:592px) {
+    .contactplace {
+        
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:592px) {
+    .form {
+        width: 300px;
+        display: flex;
+    }
+}
+
+@media (max-width:592px) {
+    .contactinfoplace, {
+        width: 200px;
+        display: flex;
+    }
+}
+
+@media (max-width:592px) {
+    .contactinfoplace, .contactinfoplace-h3, .contactinfoplace-p1, .contactinfoplace-p2, .contactinfoplace-li {
+        width: 200px;
     }
 }
 

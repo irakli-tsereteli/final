@@ -1161,17 +1161,16 @@
   justify-content: space-between;
   padding-bottom: 60px;
   border-bottom: 1px solid #eee;
-  /* align-items: center; */
 }
 
 .leftleftleftblock {
   display: flex;
   width: 790px;
-  /* background-image: url("../images/feature-image.jpg"); */
-  /* object-fit: cover; */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+.leftleftleftlock, iframe {
+  display: flex;
+  width: 790px;
 }
 
 .rightrightrightblock {
