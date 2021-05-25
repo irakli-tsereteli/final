@@ -1,6 +1,41 @@
 /* 1025px */
 
 @media (max-width:1025px){
+    .burgermenu  {
+        display: block;
+    }
+}
+@media (max-width:1025px){
+    .burgermenu a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+}
+@media (max-width:1025px){
+        .burgermenu a.icon1 {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+      
+}
+@media (max-width:1025px){
+    #myLinks a:hover {
+        border-bottom: 4px solid #f33f3f;
+      
+      }
+}
+
+  
+ 
+  
+  
+
+@media (max-width:1025px){
     .nav {
         display: none;
     }

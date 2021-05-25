@@ -49,13 +49,24 @@
     
 }
 
-.burgermenu {
+.burgermenu, .icon1, #myLinks {
+  display: none;
+  margin-top: 17px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.fa fa-bars {
   display: none;
   margin-top: 17px;
   color: #fff;
   font-size: 20px;
 }
 
+#myLinks {
+  margin-top:40px;
+}
 
 
 .nav-li {
@@ -1303,4 +1314,6 @@ input[type=submit]:hover {
 .contactinfoplace-a:hover {
   color: #f33f3f;
 }
+
+
 

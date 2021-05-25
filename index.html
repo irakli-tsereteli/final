@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/responsive.css">
@@ -37,11 +38,23 @@
                         <a href="contact-us.html" class="nav-a">contact us</a>
                     </li>
                 </ul>
+                
             </div>
+            
             <div class="burgermenu">
-              <i class="fas fa-bars burgericon"></i> 
+              
+                <a href="javascript:void(0);" class="icon1" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              
+              <div id="myLinks">
+                <a href="index.html">Home</a>
+                <a href="our-products.html">Our Products</a>
+                <a href="about-us.html">About Us</a>
+                <a href="contact-us.html">Contact Us</a>
+              </div>
           </div>
-        </div>
+          
     </header>
     <!-- header end -->
 
@@ -216,10 +229,22 @@
           </div>
       </div>
     </section>
+
         <footer>
           <div class="copyright">COPYRIGHT © 2020 SIXTEEN CLOTHING CO., LTD. - DESIGN: <a href="#" class="copyright-a">TEMPLATEMO</a></div>
         </footer>
+
         <script>
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
         var slideIndex = 1;
         showSlides(slideIndex);
         
