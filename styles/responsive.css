@@ -365,11 +365,19 @@
 }
 
 @media (max-width:592px) {
-    .contactinfoplace, {
+    .contactinfoplace {
         width: 200px;
-        display: flex;
+        
     }
 }
+
+@media (max-width:592px) {
+    .rightrightrightheading {
+        width: 200px;
+    }
+}
+
+
 
 @media (max-width:592px) {
     .contactinfoplace, .contactinfoplace-h3, .contactinfoplace-p1, .contactinfoplace-p2, .contactinfoplace-li {
@@ -381,8 +389,25 @@
 
 @media (max-width:588px) {
     .partners {
-        margin-left:0px;
+        margin: 0 auto;
         justify-content: center;
+        width: 300px;
+    }
+}
+
+@media (max-width:588px) {
+    .partners-li {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+/* 556px */
+
+@media (max-width:556px) {
+    .leftleftleftblock iframe {
+        width: 400px;
     }
 }
 
@@ -393,6 +418,21 @@
         flex-wrap: wrap;
     }
 }
+
+/* 516px */
+
+@media (max-width:516px) {
+    .contactinfoplace {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:516px) {
+    .form {
+        margin-left: 30px;
+    }
+}
+
 
 /* 505px */
 
@@ -439,6 +479,22 @@
     }
 }
 
+/* 498px */
+
+@media (max-width:499px) {
+    .leftleftleftblock iframe {
+        width: 350px;
+    }
+}
+
+/* 475px */
+
+@media (max-width:475px) {
+    .middlemiddlep1, .middlemiddlep2 {
+        width: 350px;
+    }
+}
+
 /* 440px */
 
 @media (max-width:440px) {
@@ -447,6 +503,15 @@
     }
 }
 
+/* 439px */
+
+@media (max-width:439px) {
+    .leftleftleftblock iframe {
+        width: 300px;
+    }
+}
+
+
 /* 437px */
 
 @media (max-width:437px){
@@ -454,6 +519,14 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+
+/* 428px */
+
+@media (max-width:428px) {
+    .middlemiddlep1, .middlemiddlep2 {
+        width: 300px;
     }
 }
 
@@ -474,6 +547,22 @@
 @media (max-width:391px) {
     .section-container {
         width: 85%;
+    }
+}
+
+/* 380px */
+
+@media (max-width:380px) {
+    .leftleftleftblock iframe {
+        width: 260px;
+    }
+}
+
+/* 368px */
+
+@media (max-width:368px) {
+    .middlemiddlep1, .middlemiddlep2 {
+        width: 250px;
     }
 }
 
@@ -528,6 +617,8 @@
     }
 }
 
+
+
 /* 336px */
 
 @media (max-width:336px) {
@@ -554,5 +645,13 @@
     .lastcontainer-button {
         display: flex;
         margin-left: 30px;
+    }
+}
+
+/* 333px */
+
+@media (max-width:333px) {
+    .leftleftleftblock iframe {
+        width: 230px;
     }
 }
